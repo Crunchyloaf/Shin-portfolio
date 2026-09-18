@@ -706,7 +706,6 @@ body {
   }
 }
 
-/* ---- Mobile phones ---- */
 @media (max-width: 640px) {
   nav {
     justify-content: center;
