@@ -536,3 +536,303 @@ margin:0 auto;
   animation: fadeInFooter 1s ease-in-out;
 }
 
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 1500px) {
+  .portfolio-container {
+    width: 92%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  nav {
+    padding: 16px 20px;
+  }
+  nav ul {
+    margin-right: 0;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 40px 24px 40px;
+    text-align: center;
+  }
+
+  .text-container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .text-container h1,
+  .text-container h2,
+  .text-container p {
+    margin-left: 0;
+    text-align: center;
+  }
+  .text-container h1,
+  .text-container h2 {
+    font-size: 56px;
+  }
+  .text-container p {
+    font-size: 22px;
+  }
+
+  .button-container {
+    margin: 32px 0 0 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 16px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .circle-image {
+    margin-right: 0;
+    max-width: 320px;
+    max-height: 320px;
+  }
+
+  .my-works {
+    margin: 60px 20px 24px 20px;
+  }
+
+  .portfolio-container {
+    width: 92%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 24px;
+  }
+  .portfolio-image-container {
+    width: 100%;
+    height: 280px;
+    border-radius: 24px;
+  }
+  .sample,
+  img.portfolio-image-container,
+  .portfolio-cover-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+  }
+  .portfolio-text-container {
+    margin-left: 0;
+    margin-top: 24px;
+    max-width: 100%;
+    padding: 0 8px 8px 8px;
+  }
+
+  .header-text h1.about-text,
+  .header-text h1 {
+    font-size: 44px;
+  }
+
+  .intro-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  .intro-text,
+  .intro-text2 {
+    width: 90%;
+    height: auto;
+    min-height: 320px;
+    margin-right: 0;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+  }
+  .about-image {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .skills-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 0 20px;
+  }
+  .skills-box-main,
+  .skills-box {
+    width: 45%;
+    margin-right: 0;
+  }
+
+  .contact-section {
+    margin: 100px 20px;
+  }
+  .contact-container {
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+  }
+  .contact-text {
+    max-width: 100%;
+  }
+  .contact-form {
+    justify-content: center;
+  }
+  .contact-image {
+    margin-top: 32px;
+  }
+  .contact-image img {
+    max-width: 300px;
+  }
+
+  .footer-content {
+    max-width: 90%;
+  }
+}
+
+/* ---- Mobile phones ---- */
+@media (max-width: 640px) {
+  nav {
+    justify-content: center;
+  }
+  nav ul {
+    text-align: center;
+  }
+  nav li {
+    margin: 0 10px;
+  }
+  nav li a {
+    font-size: 14px;
+  }
+
+  .header-container {
+    margin-top: 110px;
+  }
+  .text-container h1,
+  .text-container h2 {
+    font-size: 36px;
+  }
+  .text-container p {
+    font-size: 16px;
+  }
+  .start-project-btn,
+  .view-resume-btn {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+  .circle-image {
+    max-width: 220px;
+    max-height: 220px;
+  }
+
+  .my-works h1 {
+    font-size: 28px;
+  }
+
+  .portfolio-container {
+    width: 94%;
+  }
+  .portfolio-image-container {
+    height: 200px;
+  }
+  .portfolio-text-container h1 {
+    font-size: 22px;
+  }
+  .portfolio-text-container p {
+    font-size: 14px;
+  }
+  .btn-group {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .btn-group .view-project-btn,
+  .btn-group .drive-btn,
+  .view-project-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-text p {
+    font-size: 18px;
+  }
+  .header-text h1,
+  .header-text h1.about-text {
+    font-size: 32px;
+  }
+
+  .intro-text h2 {
+    font-size: 18px;
+    margin: 24px 16px 8px 16px;
+  }
+  .intro-text p {
+    font-size: 14px;
+    margin: 16px 16px 8px 16px;
+  }
+
+  .skills-box-main,
+  .skills-box {
+    width: 100%;
+  }
+  .h3-skills {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+  .skills-text {
+    margin-top: 20px;
+  }
+  .skills-icon {
+    margin-top: 24px;
+    height: 64px;
+  }
+
+  .contact-text h1 {
+    font-size: 32px;
+  }
+  .contact-text p {
+    font-size: 15px;
+  }
+  .contact-form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .email-input {
+    width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  .name,
+  .contact-info {
+    text-align: center;
+  }
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #scrollToTopBtn {
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+  }
+}
