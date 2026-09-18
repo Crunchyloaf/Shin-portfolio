@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Assets/favicon.png" rel="shortcut icon"/>
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About-Me.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-container">
+      <div class="header-text">
+        <p>Who Am I</p>
+        <h1 class="about-text">I'm Shirlynn Contada</h1>
+      </div>
+    </div>
+    <section>
+      <div class="intro-container">
+        <div class="intro-text">
+          <h2>I am a Multimedia Artist</h2>
+          <p> 
+            Most of what I’ve learned has come through trainings, hands-on practice, self-guided learning, and diving 
+            into online courses to build a strong foundation in user experience and design thinking. Along the 
+            way, I’ve also picked up skills in graphic design and project management, which help me approach 
+            problems from both a creative and strategic perspective.<br><br>
+            My goal is always to design products that aren’t just visually appealing, but also meaningful 
+            and useful solutions that solve real-world problems. I believe in the power of iteration and 
+            user feedback, and I’m always looking for ways to improve and create experiences that feel intuitive, 
+            thoughtful, and genuinely enjoyable to use.
+          </p>
+        </div>
+        <img class="about-image" src="Assets\id_photo_30.44cm_7a9bdc.jpg" />
+      </div>
+      <div class="intro-container">
+        <img class="about-image" src="Assets\proto.png" />
+        <div class="intro-text">
+          <h2>My Story</h2><br>
+          <p>
+            My journey into Multimedia Arts began in college, where I discovered my passion for creative 
+            storytelling and visual design. I started working as a volunteer animator and character rigger, contributing to cartoon shows and gaining early hands-on 
+            industry experience. I also enhanced my skills by completing trainings in Creative Web Design, 
+            Animation NC II, and 2D Animation NC III, and attending a workshop in Photography — training that also sparked my interest in Web Design and Front-End Development. Alongside animation, I 
+            explored graphic design through freelance projects focused on branding and digital content. 
+            Today, I continue to grow as a multimedia artist, combining animation, design, and visual 
+            storytelling to bring ideas to life.
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="skills-container">
+ 
+        <div class="skills-box-main">
+		  <h3 class="h3-skills">My Skills</h3>
+		  </div>
+        <div class="skills-box">
+			<img src="Assets/ui_icon.png" class="skills-icon">
+			<h5 class="skills-text">UI/UX Design</h5>
+		  </div>
+        <div class="skills-box">
+			<img src="Assets/bd_icon.png" class="skills-icon">
+			<h5 class="skills-text">Graphics Design</h5>
+		  </div>
+		<div class="skills-box">
+			<img src="Assets/coding.png" class="skills-icon">
+			<h5 class="skills-text">HTML/CSS</h5>
+		  </div>
+      <div class="skills-box">
+        <img src="Assets/adobe-animate-logo.png" class="skills-icon">
+        <h5 class="skills-text">2D Animation</h5>
+        </div>
+      </div>
+    </section>
+	  <footer>
+	   <div class="footer-content">
+        <div class="name">
+          <h3>Shirlynn Contada</h3>
+          <p>Multimedia Artist</p>
+        </div>
+        <div class="social-icons">
+          <a href="#" target="_blank"
+            ><img src="Assets\fb-icon.svg" alt="Facebook"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="Assets\ln-icon.svg" alt="LinkedIn"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="Assets\ig-icon.svg" alt="Instagram"
+          /></a>
+        </div>
+        <div class="contact-info">
+          <div class="email">Email: shirlynncontada683@gmail.com</div>
+          <div class="phone">Phone: +63 907 284 9743</div>
+        </div>
+      </div>
+    </footer>
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+<script>
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+  window.addEventListener("scroll", () => {
+    scrollToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+  </body>
+</html>

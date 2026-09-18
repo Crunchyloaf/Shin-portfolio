@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <link href="Assets/favicon.png" rel="shortcut icon"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="About-Me.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-container">
+      <div class="text-container">
+        <h1>Hi👋</h1>
+        <h2>I'm Shirlynn Contada</h2>
+        <p>Design. Motion. Magic.</p>
+        <div class="button-container">
+          <div><a href="#"class="start-project-btn">Start a Project</a></div>
+          <div><a class="view-resume-btn" href="https://drive.google.com/file/d/1Bqo8zhx9ot5y_7irp8OkVXFA_x4LDYqI/view?usp=sharing" target="_blank">View Resume</a></div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="circle-image" src="Assets\id_photo_30.44cm_7a9bdc.jpg" />
+      </div>
+    </div>
+
+    <section class="my-works">
+      <div>
+        <h1>My <span class="highlight">Works</span></h1>
+      </div>
+      <div class="portfolio-container">
+        <div class="portfolio-image-container">
+          <img class="sample" src="Assets\mb.png" />
+        </div>
+        <div class="portfolio-text-container">
+          <h1>Mobile Development</h1>
+          <p>
+            Developed "Medicine Schedule & Tracker," a mobile app that helps users set 
+            medication reminders and track their dosage history.
+          </p>
+          <div class="btn-group">
+            <a href="https://drive.google.com/file/d/18wLi2w79XmQj59EPmDablpcHYyC6p4j_/view?usp=sharing" target="_blank">
+              <button class="view-project-btn">View Project</button>
+            </a>
+            <a href="https://drive.google.com/drive/folders/16_g_cOpP0Crbtm2hhT0RyYLy7d_DCAD7?usp=sharing" target="_blank">
+              <button class="drive-btn">Demo</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-container">
+        <img class="portfolio-image-container" src="Assets\quadweb.png" />
+        <div class="portfolio-text-container">
+          <h1>Web Design</h1>
+          <p>Designed and coded a responsive personal portfolio website using HTML and CSS, featuring a clean layout to showcase projects, skills, and contact information</p>
+          <div class="btn-group">
+            <a href="https://drive.google.com/file/d/1dr1S0gni9NRY0C0hikrrE48Gv1UHt706/view?usp=sharing" target="_blank">
+              <button class="view-project-btn">About Project</button>
+            </a>
+            <a href="https://drive.google.com/drive/folders/1Du9_Nhkys18lclBSU18OFxvRvkijJcAt?usp=sharing" target="_blank">
+              <button class="drive-btn">View Project</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-container">
+        <div class="portfolio-image-container">
+          <img class="portfolio-image-container" src="Assets\mm.png" />
+        </div>
+        <div class="portfolio-text-container">
+          <h1>Character & Game Design</h1>
+          <p>A showcase of character rigging and game-related design work.</p>
+          <a href="https://drive.google.com/file/d/10UczU9cTG35XnCA5Krkbezks9tT-rwiG/view?usp=sharing" target="_blank">
+          <button class="view-project-btn">View Project</button>
+          </a>
+        </div>
+      </div>
+            <div class="portfolio-container">
+        <div class="portfolio-image-container">
+          <img class="portfolio-image-container" src="Assets\layout.png" />
+        </div>
+        <div class="portfolio-text-container">
+          <h1>Layout Design</h1>
+          <p>A collection of print layout designs — business cards, flyers, and posters — created with attention to typography, spacing, and visual balance.</p>
+          <a href="https://drive.google.com/file/d/1ZkHACCgRJqUocCGqabyDkDYiHVRzXAqR/view?usp=sharing" target="_blank">        
+          <button class="view-project-btn">View Project</button>
+          </a> 
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <div class="name">
+          <h3>Shirlynn Contada</h3>
+          <p>Multimedia Artist</p>
+        </div>
+        <div class="social-icons">
+          <a href="#" target="_blank"
+            ><img src="Assets\fb-icon.svg" alt="Facebook"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="Assets\ln-icon.svg" alt="LinkedIn"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="Assets\ig-icon.svg" alt="Instagram"
+          /></a>
+        </div>
+        <div class="contact-info">
+          <div class="email">Email: shirlynncontada683@gmail.com</div>
+          <div class="phone">Phone: +63 907 284 9743</div>
+        </div>
+      </div>
+    </footer>
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+<script>
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+  window.addEventListener("scroll", () => {
+    scrollToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+  </body>
+</html>
